@@ -1,21 +1,20 @@
 ﻿using System;
 
-
 namespace TypesAndVariables
 {
-    class program
+    class Program
     {
         static void Main()
         {
             // Console.WriteLine("Hello World");
             double number5 = 10.5;
-            decimal number6 = 10.4m;//10.4M
+            //decimal number6 = 10.4m;//10.4M
             char character = 'a';
             int number1 = 10;
             long number2 = 2147483649;
             short number3 = 32767;
             byte number4 = 255;
-            bool is_active = true;
+            //bool is_active = true;
             var number7 = 10;
             var character2 = 'b';
             Console.WriteLine(number1);
