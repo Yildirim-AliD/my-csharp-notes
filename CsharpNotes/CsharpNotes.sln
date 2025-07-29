@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Conditionals", "02_Condi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Inheritance", "09_Inheritance\09_Inheritance.csproj", "{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_VirtualMethod", "10_VirtualMethod\10_VirtualMethod.csproj", "{DDDEC040-2DD5-44DF-B666-1DEFD22ABF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_AbstractClasses", "11_AbstractClasses\11_AbstractClasses.csproj", "{AF0D0537-D608-42E7-85A2-763BB2BABC28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +81,14 @@ Global
 		{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDEC040-2DD5-44DF-B666-1DEFD22ABF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDEC040-2DD5-44DF-B666-1DEFD22ABF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDEC040-2DD5-44DF-B666-1DEFD22ABF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDEC040-2DD5-44DF-B666-1DEFD22ABF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF0D0537-D608-42E7-85A2-763BB2BABC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0D0537-D608-42E7-85A2-763BB2BABC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0D0537-D608-42E7-85A2-763BB2BABC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0D0537-D608-42E7-85A2-763BB2BABC28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
