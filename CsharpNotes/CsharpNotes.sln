@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Types_And_Variables", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Conditionals", "02_Conditionals\02_Conditionals.csproj", "{1E8B8348-2E9F-4567-B2D2-214B6A57A2B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_Inheritance", "09_Inheritance\09_Inheritance.csproj", "{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,10 @@ Global
 		{1E8B8348-2E9F-4567-B2D2-214B6A57A2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E8B8348-2E9F-4567-B2D2-214B6A57A2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E8B8348-2E9F-4567-B2D2-214B6A57A2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2FD990-13A0-4EE6-98AE-5A672E3578F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
