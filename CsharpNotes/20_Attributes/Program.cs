@@ -13,7 +13,7 @@ namespace _20_Attributes
         {
             Customer customer = new Customer { Id = 1, LastName = "Yıldırım", Age = 23 };
             CustomerDal customerDal = new CustomerDal();
-            customerDal.Add(customer);
+            //customerDal.Add(customer);
             customerDal.AddNew(customer);
 
         }

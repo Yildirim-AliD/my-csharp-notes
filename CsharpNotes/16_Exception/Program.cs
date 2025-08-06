@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
 
 
 namespace _16_Exception
@@ -9,6 +10,42 @@ namespace _16_Exception
         static void Main(string[] args)
         {
             //ExceptionIntro();
+            //TryCatch();
+
+            ////Method
+            //ActionDemo();
+
+            Func<int, int, int> toplama = Toplama;
+            Console.WriteLine(toplama(5, 10));
+
+            Func<int> getRandomNumber = delegate ()
+            {
+                Random random = new Random();
+                return random.Next(1, 100);
+            };
+
+            Console.WriteLine(getRandomNumber());
+
+            Thread.Sleep(1000); // Ensures that the random number is different each time
+
+            Func<int> getRandomNumber2 = () => new Random().Next(1, 100);
+            Console.WriteLine(getRandomNumber2());
+            
+
+        }
+
+        static int Toplama(int a, int b)
+        {
+            return a + b;
+        }
+
+        private static void ActionDemo()
+        {
+            HandleException(() => { Find(); });
+        }
+
+        private static void TryCatch()
+        {
             try
             {
                 Find();
@@ -17,9 +54,6 @@ namespace _16_Exception
             {
                 Console.WriteLine(exception.Message);
             }
-
-            //Method
-            HandleException(() => { Find(); });
         }
 
         private static void HandleException(Action value)
