@@ -22,8 +22,8 @@ The main goal of this repository is to document my learning process and provide 
 
 4.Build and run the project to explore the examples.
 
-##🤝 Contributing
+## 🤝 Contributing
 Feel free to contribute by opening issues or submitting pull requests. Suggestions and improvements are always welcome.
 
-##📄 License
+## 📄 License
 This project is licensed under the MIT License.
